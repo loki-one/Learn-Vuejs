@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <title>V-bind Directive Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!--gives a tooltip effect when you hover your mouse over the text-->
+      <span v-bind:title="message">
+        Hover your mouse over me for a few seconds to see my dynamically bound title!
+      </span>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
